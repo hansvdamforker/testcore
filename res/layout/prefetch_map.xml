@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/map_download_hint"></TextView>
+
+	<LinearLayout android:id="@+id/editoptions"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_width="fill_parent">
+			<TextView android:id="@+id/TextView03" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/distance_from_center"></TextView>
+			<EditText android:id="@+id/EditText01" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="10"></EditText>
+			<TextView android:id="@+id/TextView04" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="mi"></TextView>
+		</LinearLayout>
+
+		<TextView android:id="@+id/TextView02" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/estimated_required"></TextView>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Clear Cache"
+			android:id="@+id/clear"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/start"
+			android:text="@string/start_download"></Button>
+
+	</LinearLayout>
+
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Cancel" android:id="@+id/cancel"></Button>
+
+	<ProgressBar android:layout_height="wrap_content"
+		style="?android:attr/progressBarStyleHorizontal" android:id="@+id/progress"
+		android:layout_width="fill_parent" android:layout_marginRight="20dip"
+		android:layout_marginLeft="20dip" android:max="100" android:progress="20"
+		android:indeterminate="true"></ProgressBar>
+
+</LinearLayout>
