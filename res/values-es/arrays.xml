@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string-array name="log_interval_names">
+		<item>indefinido (el más rápido)</item>
+		<item>1 segundo</item>
+		<item>3 segundos</item>
+		<item>5 segundos</item>
+		<item>10 segundos</item> 
+		<item>15 segundos</item>
+		<item>20 segundos</item>			
+		<item>1 minuto</item>
+		<item>2 minuto</item>
+		<item>5 minuto</item>									
+	</string-array>
+	
+	<!-- The following strings should probably be localized -->	    
+	<string-array name="log_distance_interval_names">
+		<item>indefinido (el más rápido)</item>
+		<item>1 metro</item>
+		<item>5 metros</item>
+		<item>10 metros</item>
+		<item>15 metros</item>
+		<item>20 metros</item>
+		<item>30 metros</item>			
+		<item>50 metros</item>
+		<item>100 metros</item>
+		<item>200 metros</item>									
+	</string-array>
+		
+	<!-- The following strings should probably be localized -->	    
+	<string-array name="waypoint_type_names">
+		<item>Desconocido</item>
+		<item>Zona de ATerriZaje</item>
+		<item>Despegue</item>	
+		<item>Waypoint</item>							
+	</string-array>
+
+	<!-- The following strings should probably be localized -->	    
+	<string-array name="altunits_enum_names">
+		<item>Pies</item>
+		<item>Metros</item>					
+	</string-array>
+			
+	<!-- The following strings should probably be localized -->	    
+	<string-array name="speedunits_enum_names">
+		<item>km/h</item>
+		<item>mi/h</item>	
+		<item>kn</item>				
+	</string-array>
+				
+	<!-- The following strings should probably be localized -->	    		
+	<string-array name="distunits_enum_names">
+		<item>Km</item>
+		<item>Mi</item>
+		<item>Nmi</item>				
+	</string-array>
+	
+	<!-- The following strings should probably be localized -->	    
+	<string-array name="vspdunits_enum_names">
+		<item>m/s</item>
+		<item>ft/m</item>	
+		<item>kn</item>			
+	</string-array>
+	
+	<!-- The following strings should probably be localized -->	    
+	<string-array name="competition_class_names">
+		<item>Ala Flexible</item>
+		<item>Ala Rígida</item>
+		<item>Parapente (open)</item>
+		<item>Parapente (sport)</item>
+		<item>Parapente (biplaza)</item>									
+	</string-array>
+
+	<!-- The following strings should probably be localized -->
+	<string-array name="vehicle_type_names">
+		<item>Parapente</item>
+		<item>Ala flexible FAI1</item>
+		<item>Ala rígida FAI5</item>
+		<item>Planeador</item>
+		<item>Paramotor</item>	
+		<item>Trike</item>	
+		<item>Vuelo motorizado</item>	
+		<item>Globo</item>						
+	</string-array>
+												
+</resources>
